@@ -18,10 +18,10 @@
 > dotnet dev-certs https -ep ./cert/cert.pfx -p password  
 > dotnet dev-certs https --trust  
 
-* update certificate info
+* update certificate info in docker-compose.yaml
 
 > update variable ASPNETCORE_Kestrel__Certificates__Default__Password  
-> update C:\Users\MateuszLucjanek\source\repos\wkhtmlToPdfDemo\cert to wherever "./cert/cert.pfx" happens to be
+> update C:\git\wkhtmltopdf-net6-docker-demo\cert to wherever "./cert/cert.pfx" happens to be
 
 ## Build image
 
@@ -29,7 +29,7 @@
 
 ## Start image
 
-docker-compose up
+> docker-compose up
 
 ---
 

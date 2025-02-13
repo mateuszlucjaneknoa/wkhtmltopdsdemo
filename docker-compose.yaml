@@ -14,4 +14,4 @@ services:
     - "8001:5001"
     - "8000:5000"
    volumes:
-    - C:\Users\MateuszLucjanek\source\repos\wkhtmlToPdfDemo\cert:/https
+    - C:\git\wkhtmltopdf-net6-docker-demo\cert:/https
